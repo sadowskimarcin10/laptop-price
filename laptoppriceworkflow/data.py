@@ -1,4 +1,4 @@
-def get_json_data(filname = 'public-dataset.json'):
+def get_json_data(filname = 'data\public-dataset.json'):
     """Download and cache the laptop-dataset
     Parameters
     ====
@@ -13,3 +13,4 @@ def get_json_data(filname = 'public-dataset.json'):
     dataset = pd.read_json(filname)
     df = pd.DataFrame(dataset)
     return dataset
+	
